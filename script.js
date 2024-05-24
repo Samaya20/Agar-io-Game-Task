@@ -7,6 +7,8 @@ const gameWidth = 3000;
 const gameHeight = 3000;
 const numRandomPlayers = 3;
 
+
+alert("Salam! Oyunda səndən başqa 3 dənə random oyunçu var. Onların 3-ünü də tapıb yesən oyunu qazanırsan. Onlardan biri səni yesə məğlub olursan. Bölünmə və sürətləmə yoxdur, yaxın zamanda olacaq) Ok basıb ad daxil et və başla!")
 let playerName = prompt("Username daxil et:");
 while (!playerName) {
   playerName = prompt("Username daxil et:");
