@@ -135,7 +135,7 @@ function update() {
       randomPlayer.radius = 0;
       randomPlayers = randomPlayers.filter((p) => p !== randomPlayer);
       if (randomPlayers.length === 0) {
-        alert("Oyunu qazandın! Bütün oyunçuları yedin, ağlın artdı??");
+        alert("Oyunu qazandın! Bütün oyunçuları yedin, qatilsən :)))");
         restartGame();
         return;
       }
